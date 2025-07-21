@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+
+<body>
+    <h2>HTML Introduction</h2>
+    <hr>
+    <p><b>HTML</b> stands for <b>Hyper Text Markup Language</b>, which is the core language used to structure content on
+        the web. It
+        organizes text, images, links, and media using tags and elements that browsers can interpret. As of 2025, over
+        95% of websites rely on HTML alongside CSS and JavaScript, making it a fundamental tool in modern web
+        development.</p>
+    <ul>
+        <li>It is a markup language, not a programming language. This means it annotates text to define how it is
+            structured and displayed by <a
+                href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=webbrowsers&ns0=1">web browsers.</a>
+        </li>
+        <li>It is a <b>static language</b>, meaning it does not inherently provide interactive features but can be
+            combined with <a href="https://en.wikipedia.org/wiki/CSS">CSS</a> for styling and <a
+                href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> for interactivity.</li>
+    </ul>
+    <p>In a nutshell, HTML is all about organizing and displaying information on a webpage. We can think of it as the
+        bones or structure of a webpage.</p>
+    <center>
+        <img src="">
+    </center>
+    <h2>HTML Page Structure</h2>
+    <p>The basic structure of an HTML page is shown below. It contains the essential building-block elements (i.e.
+        doctype declaration, HTML, head, title, and body elements) upon which all web pages are created.</p>
+    <center>
+        <img src="./Images/html structure.png">
+    </center>
+    <ul>
+        <li>&lt;<a
+                href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=doctype+html&ns0=1">DOCTYPEhtml-</a>&gt;This
+            is the document type declaration, not a tag. It declares that the document is an HTML5 document.</li>
+        <li>&lt;<a href="https://en.wikipedia.org/wiki/HTML">html-</a>&gt;This is called the HTML root element. All
+            other elements are contained within it.</li>
+        <li>&lt;<a href="https://en.wikipedia.org/wiki/Head">head-</a>&gt;The head tag contains the "behind the scenes"
+            elements for a webpage. Elements within the head aren't visible on the front end of a webpage. Typical
+            elements inside the
+
+            <head> include:
+        </li>
+        <li>
+            <ul>
+                <li>&lt;<a href="https://en.wikipedia.org/wiki/Title">title-</a>&gt;Defines the title displayed on the
+                    browser tab.</li>
+                <li>&lt;<a href="https://en.wikipedia.org/wiki/Meta">meta-</a>&gt;Provides information like the
+                    character set or viewport settings.</li>
+                <li>&lt;<a href="https://en.wikipedia.org/wiki/Link">link-</a>&gt;Links external stylesheets or
+                    resources.</li>
+                <li>&lt;<a href="https://en.wikipedia.org/wiki/Style">style-</a>&gt;Embeds internal CSS styles.</li>
+                <li>&lt;<a href="https://en.wikipedia.org/wiki/Script">script-</a>&gt;Embeds JavaScript for
+                    functionality.</li>
+            </ul>
+        </li>
+        <li>&lt;<a href="https://en.wikipedia.org/wiki/Title">title-</a>&gt;The title is what is displayed on the top of
+            your browser when you visit a website and contains the title of the webpage that you are viewing.</li>
+        <li>&lt;<a
+                href="https://en.wikipedia.org/w/index.php?search=h2+in+html&title=Special%3ASearch&ns0=1">h2-</a>&gt;The
+            h2 tag is a second-level heading tag.</li>
+        <li>&lt;<a href="https://en.wikipedia.org/wiki/Paragraph">p-</a>&gt;The paragraph tag represents a paragraph of
+            text.</li>
+        <li>&lt;<a href="https://en.wikipedia.org/wiki/Body">body-</a>&gt;The body tag is used to enclose all the
+            visible content of a webpage. In other words, the body content is what the browser will show on the front
+            end.</li>
+    </ul>
+    <p>An HTML document can be created using an <a
+            href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=html+text+editor&ns0=1">HTML text
+            editor.</a>Save the text file using the <b>".html"</b> or <b>".htm"</b> extension. Once saved as an HTML
+        document, the file can be opened as a webpage in the browser.</p>
+    <p><b><i>Note:</i></b><i>Basic/built-in text editors are Notepad </i><b><i>(Windows)</i></b> and <b><i>TextEdit
+                (MacOS).</i></b><i> Other advanced text editors include <b>Sublime Text, Visual Studio Code,</b>
+            etc.</i></p>
+    <h2>HTML Elements and HTML Tag</h2>
+    <p><a href="https://en.wikipedia.org/wiki/HTML">HTML</a> Elements and HTML Tags are related but distinct. An <b>HTML
+            element</b> is the complete structure, including the opening tag, content (if any), and the closing tag (if
+        applicable).</p>
+    <p>On the other hand, A <b>tag</b> is the actual keyword or name enclosed in angle brackets (<>) that tells the
+            browser what kind of content to expect.</p>
+    <center>
+        <img src="./Images/grreksimg.png">
+    </center>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Tag</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/wiki/HTML">html</a>&gt;</td>
+            <td>The root element of an HTML document</td>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/wiki/Head">head</a>&gt;</td>
+            <td>Contains meta-information about the webpage</td>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/wiki/Body">body</a>&gt;</td>
+            <td>Contains the visible content of the webpage</td>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=h1+to+h6&ns0=1">h1 to h6</a>&gt;
+            </td>
+            <td>Headings of various levels (h1 being the largest)</td>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/w/index.php?search=p+tag&title=Special%3ASearch&ns0=1">p</a>&gt;
+            </td>
+            <td>Defines a paragraph</td>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/wiki/HTML_element#Anchor">a</a>&gt;</td>
+            <td>Defines a hyperlink</td>
+        </tr>
+        <tr>
+            <td>&lt;<a
+                    href="https://en.wikipedia.org/w/index.php?search=image+tag&title=Special%3ASearch&ns0=1">img</a>&gt;
+            </td>
+            <td>Embed an image</td>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/wiki/UL">ul</a>&gt;</td>
+            <td>Defines an unordered list</td>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/wiki/OL">ol</a>&gt;</td>
+            <td>Defines an ordered list</td>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/wiki/Li">li</a>&gt;</td>
+            <td>Defines a list item</td>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/wiki/Table">table</a>&gt;</td>
+            <td>Defines a table</td>
+        </tr>
+        <tr>
+            <td>&lt;<a href="https://en.wikipedia.org/wiki/Form">form</a>&gt;</td>
+            <td>Defines an HTML form</td>
+        </tr>
+    </table>
+    <p><i>To learn more about it follow the article -<a href="https://en.wikipedia.org/wiki/HTML_element">HTML Tags</a>
+        </i></p>
+    <h2>HTML Attributes</h2>
+    <p>Attributes provide additional information about an element. They are placed inside the opening tag and are
+        written as name="value". Common attributes include class, id, <a
+            href="https://en.wikipedia.org/wiki/Hyperlink">href</a> and <a
+            href="https://en.wikipedia.org/wiki/SRC">src.</a></p>
+    <h3>Example</h3>
+    <ul>
+        <li>href is an attribute of the <a> tag that defines the URL of the link.</li>
+    </ul>
+    <p><i>To learn more about it follow the article - <a href="https://en.wikipedia.org/wiki/HTML_attribute">HTML
+                Attributes</a></i></p>
+    <h2>Web Browser</h2>
+    <p>Unlike other programming languages, HTML does not show output on the any compiler. <b>Web browsers</b> is an
+        compiler
+        which show the results of an your HTML code.
+    </p>
+    <p>
+        It reads HTML files and determines how to show content with the help of HTML tags. Any web browser (Google,
+        <a href="https://en.wikipedia.org/wiki/Safari">Safari</a>,<a
+            href="https://en.wikipedia.org/wiki/Firefox">Mozilla Firefox</a>, etc) can be used to open a . <b>HTML
+            file</b> and view the results.
+    </p>
+    <center>
+        <img src="./Images/webpage4.png">
+    </center>
+    <h2>Why Learn HTML?</h2>
+    <p>Here are <b>5 common reasons to learn HTML:</b></p>
+    <ol>
+        <li><b>Build Websites:</b> HTML is the basic building block for creating any <a
+                href="https://en.wikipedia.org/wiki/Website">website.</a> Learning HTML can help you pursue a career in
+            web development.</li>
+        <li><b>Customize Content:</b>Allows you to edit or tweak <a href="https://en.wikipedia.org/wiki/Web_page">web
+                pages</a>, emails, or templates to fit your needs.</li>
+        <li><b>Understand how the web works:</b>This helps you grasp how the internet works and how web pages are
+            structured.</li>
+        <li><b>Employment Opportunities:</b>According to the Bureau of Labor Statistics, projects that employment for
+            web developers will grow 16% between 2022 and 2032, which is much faster than the average across all
+            occupations.</li>
+        <li><b>Learn Easily:</b>HTML is beginner-friendly, making it a great first step into the world of coding and
+            technology./li>
+    </ol>
+    <h2>Applications of HTML</h2>
+    <ul>
+        <li><b>Web Development: HTML is the backbone of every webpage. It structures the content and integrates
+                multimedia, hyperlinks, and more.</b>HTML is the backbone of every webpage. It structures the content
+            and integrates multimedia, hyperlinks, and more.</li>
+        <li><b><a href="https://en.wikipedia.org/wiki/Web_application">Web Applications:</a></b>HTML, in combination
+            with CSS and JavaScript, powers complex web applications (e.g., <a
+                href="https://en.wikipedia.org/wiki/Google_Docs">Google Docs,</a> <a
+                href="https://en.wikipedia.org/wiki/Trello">Trello</a>).</li>
+        <li><b>Emails: </b>HTML emails use table-based layouts and embedded media to deliver rich, interactive content.
+        </li>
+        <li><b><a href="https://en.wikipedia.org/wiki/Mobile_app_development">Mobile App Development:</a></b>HTML5 is
+            used with frameworks like PhoneGap to build mobile apps for iOS and Android.</li>
+    </ul>
+    <h2>Limitations of HTML</h2>
+    <ul>
+        <li><b>No Logic or Functionality:</b> HTML cannot handle complex logic, interactivity, or dynamic content on its
+            own. It requires JavaScript for such tasks.</li>
+        <li><a href="https://en.wikipedia.org/wiki/Seo">SEO</a><b> Limitations:</b> While HTML provides structure, it’s
+            not enough by itself for search engine optimization (SEO). Proper metadata and content structuring, as well
+            as external SEO practices, are necessary.</li>
+        <li><b>Limited Styles:</b> While HTML can handle basic styles via the style attribute, it is typically
+            complemented by CSS for complex styling and layout.</li>
+    </ul>
+    <h2>HTML5: Enhancements and New Features</h2>
+    <p><a href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=html+5+introduced&ns0=1"><b>HTML 5
+                Introduced</b></a> several powerful features that improve the structure and functionality of web pages,
+        including:</p>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Semantics"><b>Semantics</b></a>New tags like article,footer,header,
+            and section to improve the meaning of the content.</li>
+        <li><a href="https://en.wikipedia.org/wiki/Multimedia"><b>Multimedia:</b></a><a
+                href="https://en.wikipedia.org/wiki/Audio">Audio and</a><a
+                href="https://en.wikipedia.org/wiki/Video">Vedio</a>tags for embedding audio and video without plugins.
+        </li>
+        <li><a href="https://en.wikipedia.org/w/index.php?search=API%27S&title=Special%3ASearch&ns0=1">API'S:</a> New
+            APIs like Geolocation, Web Storage, and Canvas allow for more dynamic content and interactive websites.</li>
+    </ul>
+    <h2>HTML History</h2>
+    <p>Currently, we are using <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a> which is the latest and most
+        advanced version of HTML.</p>
+    <ul>
+        <li>HTML was initially created by <b>Tim Berners-Lee</b> in 1991 as a way to share and structure documents on
+            the web.</li>
+        <li>The first-ever version was <b>HTML 1.0</b>, a basic and limited version. However, the first standardized
+            version, <b>HTML 2.0</b>, was published in 1995, laying the foundation for web development as we know it
+            today.</li>
+    </ul>
+    <center>
+        <img src="./Images/ht-ml released year.png">
+    </center>
+    <h2>Conclusion</h2>
+    <p>In conclusion, mastering HTML is a fundamental step in your <a
+            href="https://en.wikipedia.org/wiki/Web_development">web development</a> journey. This guide serves as a
+        comprehensive resource for understanding HTML, from the basics to more advanced topics. Remember, HTML is more
+        than just a markup language - it’s a powerful tool for creating engaging, accessible, and SEO-friendly websites.
+    </p>
+    <p>To learn more about HTML, visit the <a
+            href="https://en.wikipedia.org/w/index.php?search=html+tutorial&title=Special%3ASearch&ns0=1">HTML Tutorial
+            Page.</a></p>
+    <p><b>Note:</b> If you want to Master The Art of Web Development, Check out our <a
+            href="https://en.wikipedia.org/w/index.php?search=full+stack+web+development+classroom&title=Special%3ASearch&ns0=1">Full
+            Stack Web Development Classroom</a></p>
+</body>
+
+</html>

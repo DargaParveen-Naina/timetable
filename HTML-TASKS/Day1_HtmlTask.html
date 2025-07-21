@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Introduction to Python</title>
+</head>
+<body>
+   <h3><u>1. What is Python?</u></h3>
+   <p>Python is a high-level, interpreted programming language known for its simple <mark><a href="https://www.bing.com/search?q=syntax%20and%20readability%20simple%20defiantion&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=syntax%20and%20readability%20simple%20defiantion&sc=6-40&sk=&cvid=94116D95136A43F2B11E4E7A5342F2D6" target="_blank">syntax and readability</a></mark>.
+      It is used in web development, data science, AI, automation, and more.</p>
+   <h3><u>2. Who developed Python and when?</u></h3>
+   <p>Python was developed by <mark><a href="https://en.wikipedia.org/wiki/Guido_van Rossum" target="_blank">Guido van Rossum</a></mark> and was first released in <mark>1991</mark>.</p>
+   <h3><u>3. What are the features of Python?</u></h3>
+   <p>
+   <ul>
+      <li><mark><a href="https://www.geeksforgeeks.org/python/reading-writing-text-files-python/" target="_blank">Easy to read and write</a></mark></li>
+      <li>Interpreted language</li>
+      <li><mark><a href="https://www.google.com/search?q=dynamically+typed+language+python&oq=dynamically+typed&gs_lcrp=EgZjaHJvbWUqDAgCEAAYFBiHAhiABDIHCAAQABiABDIJCAEQRRg5GIAEMgwIAhAAGBQYhwIYgAQyBwgDEAAYgAQyDAgEEAAYFBiHAhiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCTExNzQ1ajBqN6gCCLACAfEFATV2t5ZXyXnxBQE1dreWV8l5&sourceid=chrome&ie=UTF-8" target="_blank">Dynamically typed</a></mark></li>
+      <li>Free and open-source</li>
+      <li><mark><a href="https://www.google.com/search?q=cross+platfrom+python&sca_esv=ebea5675d131f87f&sxsrf=AE3TifO-K-7zLkczfBlO-D_VH2TeY2Igaw%3A1751439103035&ei=_9ZkaJvxAbyGnesPsoaBsQE&ved=0ahUKEwjb7NOMy52OAxU8Q2cHHTJDIBYQ4dUDCBA&uact=5&oq=cross+platfrom+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWNyb3NzIHBsYXRmcm9tIHB5dGhvbjIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIGEAAYDRgeMgYQABgNGB4yCBAAGAUYDRgeMggQABgFGA0YHjIIEAAYBRgNGB4yCBAAGAgYDRgeMggQABgIGA0YHkjMPlCvA1i3MHABeAGQAQCYAbIBoAGoH6oBBDAuMji4AQPIAQD4AQGYAg-gAtgQwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgcQIxiwAhgnwgIIEAAYBxgIGB7CAgoQIxiABBgnGIoFwgIKEAAYgAQYQxiKBcICDRAAGIAEGLEDGEMYigXCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIQEAAYgAQYsQMYQxiDARiKBcICBhAAGAcYHsICCBAAGAcYChgemAMAiAYBkAYKkgcEMS4xNKAH0MkBsgcEMC4xNLgH0BDCBwQyLTE1yAc-&sclient=gws-wiz-serp" target="_blank">Cross-platform</a></mark></li>
+      <li>Large standard library</li>
+   </ul>
+   </p>
+   <h3><u>4. What makes Python a preferred language for developers today?</u></h3>
+   <p>
+   <ol>
+      <li><mark><a href="https://www.google.com/search?q=easy+to+learn+and+use+in+python&sca_esv=ebea5675d131f87f&sxsrf=AE3TifMW8Xod6cfQhq0mVQ_F_DFbRJF9Xw%3A1751439210134&ei=atdkaOn-B42XseMPidKlkAE&oq=easy+to+learn+and+use&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWVhc3kgdG8gbGVhcm4gYW5kIHVzZSoCCAEyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiC8wJQ1QNYo_QBcAF4AZABAJgBxQOgAdNNqgELMC4xOS4yMC41LjG4AQHIAQD4AQGYAiSgAvY6wgIKEAAYsAMY1gQYR8ICBxAjGLACGCfCAgcQABiABBgNwgIGEAAYDRgewgIIEAAYBRgNGB7CAggQABgIGA0YHsICChAjGIAEGCcYigXCAgoQABiABBhDGIoFwgILEAAYgAQYkQIYigXCAhAQABiABBixAxhDGIMBGIoFwgIIEAAYgAQYsQPCAgcQIxixAhgnwgIREAAYgAQYkQIYsQMYgwEYigXCAg4QABiABBiRAhixAxiKBcICBhAAGAcYHsICDRAAGIAEGLEDGIMBGA3CAgoQABiABBixAxgNwgINEC4YgAQY0QMYxwEYCsICBRAAGIAEwgIHEAAYgAQYCsICChAAGIAEGLEDGArCAhwQLhiABBjRAxjHARgKGJcFGNwEGN4EGOAE2AEBwgIEECMYJ8ICEBAjGPAFGIAEGCcYyQIYigXCAgoQLhiABBhDGIoFwgIOEAAYgAQYsQMYgwEYigXCAhAQLhiABBjRAxhDGMcBGIoFwgIWEC4YgAQYsQMY0QMYQxiDARjHARiKBcICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxjHARivAcICChAAGIAEGBQYhwLCAggQABgWGAoYHpgDAOIDBRIBMSBAiAYBkAYIugYGCAEQARgUkgcJMS4xNi4xNi4zoAeB4wKyBwkwLjE2LjE2LjO4B-k6wgcGMi0yOC44yAfuAQ&sclient=gws-wiz-serp" target="_blank">Easy to Learn and Use</a></mark></li>
+      <li>Versatile and Powerful</li>
+      <li><mark><a href="https://www.google.com/search?q=huge+community+support+in+python&sca_esv=ebea5675d131f87f&sxsrf=AE3TifOg1qOOPjfrjsGOBQb6tIO3iYHgDA%3A1751439510165&ei=lthkaNrkCcqTseMP8dGDyQ0&ved=0ahUKEwjah-XOzJ2OAxXKSWwGHfHoINkQ4dUDCBA&uact=5&oq=huge+community+support+in+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiIGh1Z2UgY29tbXVuaXR5IHN1cHBvcnQgaW4gcHl0aG9uMgYQABgWGB4yCxAAGIAEGIYDGIoFMggQABiABBiiBDIIEAAYgAQYogQyBRAAGO8FMggQABiiBBiJBUiB8wJQ1AdYt5QBcAV4AZABAJgBpgSgAYk6qgENMC4xMS4xNi40LjAuMbgBA8gBAPgBAZgCF6ACsiPCAgoQABiwAxjWBBhHwgIHECMYsAIYJ8ICBhAAGAcYHsICChAAGIAEGEMYigXCAggQABgFGAcYHsICBhAAGAUYHsICBhAAGAgYHsICCBAhGKABGMMEwgIKECEYoAEYwwQYCpgDAIgGAZAGCJIHCjUuMy4xMi4yLjGgB-ybAbIHCjAuMy4xMi4yLjG4B44jwgcIMC41LjE1LjPIB20&sclient=gws-wiz-serp" target="_blank">Huge Community Support</a></mark></li>
+      <li>High Demand in Jobs</li>
+      <li><mark><a href="https://www.google.com/search?q=rich+libraries+and+frameworks+in+python&sca_esv=ebea5675d131f87f&sxsrf=AE3TifN8_S1rscU3X0hFLHFbUiFXDPNuVA%3A1751439904888&ei=INpkaLr_NYrgseMPwOnXmA4&ved=0ahUKEwi6j4GLzp2OAxUKcGwGHcD0FeMQ4dUDCBA&uact=5&oq=rich+libraries+and+frameworks+in+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiJ3JpY2ggbGlicmFyaWVzIGFuZCBmcmFtZXdvcmtzIGluIHB5dGhvbjIIECEYoAEYwwQyCBAhGKABGMMESKeBAVCuBVj7f3ACeAGQAQCYAZgEoAH1PKoBDTAuMTQuMTYuMy4wLjG4AQPIAQD4AQGYAhegAvokwgIKEAAYsAMY1gQYR8ICBxAjGLACGCfCAggQABiABBiiBMICBRAAGO8FwgIIEAAYogQYiQXCAgYQABgHGB7CAgoQABiABBhDGIoFwgILEAAYgAQYkQIYigXCAgYQABgFGB7CAggQABgHGAgYHsICCBAAGAUYBxgewgILEAAYgAQYhgMYigXCAgcQABiABBgNwgIIEAAYCBgNGB7CAgoQIRigARjDBBgKmAMAiAYBkAYIkgcIMi43LjEyLjKgB5XMAbIHCDAuNy4xMi4yuAfpJMIHCDAuNS4xNy4xyAds&sclient=gws-wiz-serp" target="_blank">Rich Libraries and Frameworks</a></mark></li>
+      <li>Platform Independent</li>
+      <li><mark><a href="https://www.google.com/search?q=great+for+automation+in+python&sca_esv=ebea5675d131f87f&sxsrf=AE3TifORxpQVopUVL6XP_AI9wrwQn5f-8Q%3A1751440044731&ei=rNpkaOW4LN-OseMPurOHkAU&ved=0ahUKEwjlvtjNzp2OAxVfR2wGHbrZAVIQ4dUDCBA&uact=5&oq=great+for+automation+in+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiHmdyZWF0IGZvciBhdXRvbWF0aW9uIGluIHB5dGhvbjIIECEYoAEYwwQyCBAhGKABGMMESLxcUJEDWMBLcAJ4AZABAJgB1AKgAfYpqgEIMC4xNS44LjO4AQPIAQD4AQGYAhOgAsUbwgIKEAAYsAMY1gQYR8ICCBAAGIAEGKIEwgIGEAAYBxgewgIKEAAYgAQYQxiKBcICCBAAGAcYChgewgIIEAAYBRgHGB7CAgYQABgIGB7CAggQABgHGAgYHsICCxAAGIAEGIYDGIoFwgIIEAAYogQYiQXCAgUQABjvBcICChAhGKABGMMEGAqYAwCIBgGQBgiSBwgyLjEwLjYuMaAHlpEBsgcIMC4xMC42LjG4B7YbwgcGMC4xLjE4yAdd&sclient=gws-wiz-serp" target="_blank">Great for Automation</a></mark></li>
+   </ol>
+   </p>
+   <h3><u>5. What are the uses of Python?</u></h3>
+   <p>
+   <ul>
+      <li><mark><a href="https://www.google.com/search?q=web+development+(django%2Cflask)+in+python&oq=web+development+(django%2Cflask)+in+python&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIHCAIQABjvBTIKCAMQABiiBBiJBdIBCjIyODIxN2owajmoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">Web development (Django, Flask)</a></mark></li>
+      <li>Data science and analytics</li>
+      <li><mark><a href="https://www.google.com/search?q=machine+learning+and+AI+in+python&sca_esv=ebea5675d131f87f&sxsrf=AE3TifOcKWjRxm8WXBtECjqa4x6eBF6QEQ%3A1751440626613&ei=8txkaNqgJYOUseMPuqGj-AE&ved=0ahUKEwja4ZPj0J2OAxUDSmwGHbrQCB8Q4dUDCBA&uact=5&oq=machine+learning+and+AI+in+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiIW1hY2hpbmUgbGVhcm5pbmcgYW5kIEFJIGluIHB5dGhvbjILEAAYgAQYkQIYigUyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5I0cgBUIUFWMZ5cAJ4AZABAJgB_QGgAbsnqgEGMC4yNi40uAEDyAEA-AEBmAIZoAKzH8ICChAAGLADGNYEGEfCAggQIRigARjDBMICBhAAGAcYHsICChAAGIAEGEMYigXCAgUQABiABMICBxAAGIAEGA3CAggQABgHGAoYHsICCBAAGAcYCBgewgIGEAAYCBgewgIKEAAYBxgIGAoYHsICCxAAGIAEGIYDGIoFwgIFEAAY7wXCAggQABgIGAoYHpgDAIgGAZAGCJIHBjIuMTguNaAHpOwBsgcGMC4xOC41uAekH8IHCDAuMS4yMi4yyAefAQ&sclient=gws-wiz-serp" target="_blank">Machine learning and AI</a></mark></li>
+      <li>Automation (scripting)</li>
+      <li>Game development</li>
+      <li><mark><a href="https://www.google.com/search?q=desktop+aplications+in+python&sca_esv=ebea5675d131f87f&sxsrf=AE3TifNsaVbKezt2shhCczMa866gxHAdLQ%3A1751440903272&ei=B95kaIi2EK6eseMPv8zEiAs&ved=0ahUKEwjI1Ynn0Z2OAxUuT2wGHT8mEbEQ4dUDCBA&uact=5&oq=desktop+aplications+in+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiHWRlc2t0b3AgYXBsaWNhdGlvbnMgaW4gcHl0aG9uMgYQABgNGB4yCBAAGAUYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyBRAAGO8FMggQABiABBiiBEjjWVDuCFjOU3ABeAGQAQCYAcICoAHqJKoBCDAuMTYuOC4xuAEDyAEA-AEBmAISoAKnGsICChAAGLADGNYEGEfCAgcQIxiwAhgnwgIGEAAYBxgewgIIEAAYBxgIGB7CAgoQABgHGAgYChgewgIKEAAYgAQYQxiKBcICBxAAGIAEGA3CAggQABgFGAcYHsICChAhGKABGMMEGAqYAwCIBgGQBgiSBwgxLjExLjQuMqAH08ABsgcIMC4xMS40LjK4B5kawgcGMi0xNS4zyAdw&sclient=gws-wiz-serp" target="_blank">Desktop applications</a></mark></li>
+   </ul>
+   </p>
+   <h3><u>6. What is the difference between Python 2 and Python 3?</u></h3>
+   <p>Python 3 is the latest version and is not <mark><a href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=backward+compatibility+defination&ns0=1" target="_blank">backward-compatible </a></mark>2. Python 3 supports modern
+         features like print() as a function and <mark><a href="https://en.wikipedia.org/w/index.php?search=better+unicode+handling&title=Special%3ASearch&ns0=1" target="_blank">better Unicode handling</a></mark>.</p>
+   <h3><u>7. What is indentation in Python?</u></h3>
+   <p>Indentation is the space used at the beginning of a line to define blocks of code. Python uses <mark><a href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=intendation+meaning&ns0=1" target="_blank">indentation</a></mark>
+         instead of braces {}.</p>
+   <h3><u>8. What is the extension of Python files?</u></h3>
+   <p>Python files have the <mark><a href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=exension.py&ns0=1" target="_blank">extension .py</a></mark>.</p>
+   <h3><u>9. What is an interpreted language?</u></h3>
+   <p>An interpreted language executes code line by line instead of compiling the whole program at once. <mark><a href="https://en.wikipedia.org/wiki/Interpreter_(computing)" target="_blank">Python is an interpreted language</a></mark>.</p>
+   <h3><u>10. Which major companies are currently using Python?</u></h3>
+   <p>
+   <ul>
+      <li><mark><a href="https://en.wikipedia.org/wiki/Google" target="_blank">Google</a></mark></li>
+      <li><mark><a href="https://en.wikipedia.org/wiki/Instagram" target="_blank">Instagram</a></mark></li>
+      <li><mark><a href="https://en.wikipedia.org/wiki/Netflix" target="_blank">Netflix</a></mark></li>
+      <li><mark><a href="https://en.wikipedia.org/wiki/Facebook (Meta)" target="_blank">Facebook (Meta)</a></mark></li>
+      <li><mark><a href="https://en.wikipedia.org/wiki/Amazon" target="_blank">Amazon</a></mark></li>
+      <li><mark><a href="https://en.wikipedia.org/wiki/Spotify" target="_blank">Spotify</a></mark></li>
+      <li><mark><a href="https://en.wikipedia.org/wiki/NASA" target="_blank">NASA</a></mark></li>
+      </p>
+      <h3><u>11. Why is Python called a high-level programming language?</u></h3>
+      <p>Python is called a high-level language because it is easy to read and write like English. You
+         don’t need to know how the computer works inside (like memory or hardware). It hides all the complex details
+         and lets you <mark><a href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=focus+on+solving+the+problem&ns0=1" target="_blank">focus on solving the problem</a></mark>.It is easy to understand and hides the complex
+            work done by the computer.</p>
+      <h3><u>12. Is Python an interpreted or compiled language?</u></h3>
+      <p>When you write Python code, it is <mark><a href="https://en.wikipedia.org/wiki/Language_interpretation" target="_parent">not directly converted into machine code like in compiled languages
+            (e.g., C or C++).Python is interpreted because it runs the code line by line using an interpreter</a></mark>.
+      </p>
+</body>
+</html>
+`
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h3><u></u></h3>
+      <p></p>
